@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000">
+    <title>מועדון הלקוחות של סקארה</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <img class="header-img" src="./header-img.webp" alt="A woman using Sacara's product">
+            <div class="inner">
+                <img class="logo" src="./sacara-logo.webp" alt="Sacars's logo">
+                <h2 class="welcome-title">WELCOME!</h2>
+                <p class="instructions">
+                    רק 2 שלבים ואנחנו חברים...
+                    <br />
+                    הכניסו את מספר תעודת הזהות ע״מ שנוכל לזהות אתכם
+                </p>
+                <form action="" class="id-verification-form" onsubmit="return validateId()">
+                    <div class="error-msg">תעודת הזהות אינה תקינה</div>
+                    <input type="text" class="id-input" required name="id" placeholder="ת״ז" maxlength="9">
+                    <input type="submit" value="אישור">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

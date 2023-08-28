@@ -1,0 +1,112 @@
+body {
+    height: 100%;
+    max-width: 620px;
+    margin: 20px auto;
+    font-family: 'Heebo', sans-serif;
+    line-height: 27px;
+    font-size: 25px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+main {
+    background-color: white;
+    padding-bottom: 50px;
+    box-shadow: 0 0 20px -5px #999;
+}
+
+input {
+    font-size: inherit;
+    font-family: inherit;
+    box-sizing: inherit;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.inner {
+    padding: 30px;
+}
+
+.logo {
+    max-width: 70%;
+    margin: 30px 0 50px;
+}
+
+.title {
+    margin: 0;
+    line-height:45px;
+}
+
+.instructions {
+    margin: 25px 0 20px;
+    padding-bottom: 45px;
+    border-bottom: solid 2px #f10291;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.email-form.error .id-input,
+.email-form.error .email-input {
+    border: solid 3px;
+    border-color: tomato;
+}
+
+.email-form.error .error-msg {
+    visibility: visible;
+}
+
+.email-input,
+.comment-input {
+    width: 95%;
+    border: solid 1px;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type="text"] {
+    border: solid 3px black;
+}
+
+input[type="submit"] {
+    width: 100%;
+    max-width: 80%;
+    color: #feabdd;
+    background-color: #000;
+    border-radius: 20px;
+    border: none;
+    margin-top: 40px;
+    padding: 20px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.error-msg {
+    visibility: hidden;
+    color: tomato;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 620px) {
+    body {
+        margin: 0;
+    }
+
+    main {
+        height: 100%;
+    }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000">
+    <title>מועדון הלקוחות של סקארה</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <img class="header-img" src="./header-img.webp" alt="A woman using Sacara's product">
+            <div class="inner">
+
+                <img class="logo" src="./sacara-logo.webp" alt="Sacars's logo">
+
+                <h2 class="title">השלימו את הפרטים הבאים על מנת להצטרף למועדון</h2>
+
+                <form action="" class="membership-form">
+
+                    <div class="error-msg id-error hidden">תעודת הזהות אינה חוקית</div>
+                    <input required type="text" name="id" class="id-input" required  placeholder="תעודת זהות" maxlength="9">
+
+                    <input required type="text" name="city" class="city-input" placeholder="עיר מגורים">
+
+                    <input required type="text" name="full-name" class="full-name-input" placeholder="שם מלא">
+
+                    <div class="error-msg email-error hidden">כתובת המייל אינה תקינה</div>
+                    <input required type="text" name="email" class="email-input" placeholder="כתובת מייל">
+
+                    <div class="error-msg phone-error hidden">מספר הטלפון אינו תקין</div>
+                    <input required type="text" name="phone" class="phone-input" required placeholder="טלפון נייד">
+
+                    <input required type="text" name="date" class="date-input" placeholder="תאריך לידה">
+
+                    <p class="terms">אני מאשר/ת קבלת הודעות פרסומיות בדיוור ו/או בסמס ממועדון לקוחות סקארה ומאשר/ת שקראתי והסכמתי <a href="https://www.sacara.co.il/members-terms" target="_blank">לתקנון</a> ההצטרפות למועדון</p>
+
+                    <div class="toggle-container">
+                        <input type="checkbox" id="terms-toggle">
+                        <label for="terms-toggle"></label>
+                        <img class="checkmark-icon" src="./check-mark.svg" alt="checkmark">
+                    </div>
+
+                    <div class="error-msg terms-error hidden">נא אשרו את התקנון</div>
+
+                    <input type="submit" value="שלחו לי הטבה">
+
+                </form>
+
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

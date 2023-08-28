@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000">
+    <title>מועדון הלקוחות של סקארה</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <img class="header-img" src="./header-img.webp" alt="A woman using Sacara's product">
+            <div class="inner">
+                <img class="logo" src="./sacara-logo.webp" alt="Sacars's logo">
+                <h2 class="title">איזה כיף, אנחנו כבר חברים!</h2>
+                <p class="instructions">
+                    השלימו את הפרטים החסרים, והטבה מפנקת במיוחד<br />
+                    תישלח אליכם למייל למימוש בקנייה הבאה בסניפים ובאתר!
+                </p>
+                <form action="" class="email-form" onsubmit="return validateEmail()">
+                    <div class="error-msg">כתובת המייל אינה תקינה</div>
+                    <input type="text" class="email-input" required name="email" placeholder="כתובת מייל">
+                    <input type="text" class="comment-input" name="comment-1" placeholder="מידע נוסף">
+                    <input type="text" class="comment-input" name="comment-2" placeholder="מידע נוסף">
+                    <input type="submit" value="שלחו לי הטבה">
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
