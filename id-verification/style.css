@@ -81,7 +81,7 @@ input {
 input[type="submit"] {
     width: 100%;
     max-width: 80%;
-    color: #b8ece0;
+    color: white;
     background-color: #000;
     border-radius: 20px;
     border: none;

@@ -83,7 +83,7 @@ input[type="text"] {
 input[type="submit"] {
     width: 100%;
     max-width: 80%;
-    color: #feabdd;
+    color: white;
     background-color: #000;
     border-radius: 20px;
     border: none;
