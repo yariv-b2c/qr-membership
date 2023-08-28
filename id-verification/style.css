@@ -38,6 +38,7 @@ input {
 
 .welcome-title {
     margin: 0;
+    line-height: 45px;
     direction: ltr;
 }
 

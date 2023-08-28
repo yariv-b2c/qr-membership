@@ -1,0 +1,68 @@
+body {
+    height: 100%;
+    max-width: 620px;
+    margin: 20px auto;
+    font-family: 'Heebo', sans-serif;
+    line-height: 27px;
+    font-size: 25px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+main {
+    background-color: white;
+    padding-bottom: 50px;
+    box-shadow: 0 0 20px -5px #999;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.inner {
+    padding: 30px;
+}
+
+.logo {
+    max-width: 70%;
+    margin: 30px 0 50px;
+}
+
+.welcome-title {
+    margin: 0;
+    line-height: 45px;
+    direction: ltr;
+}
+
+.instructions {
+    margin: 25px 0 60px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-link {
+    display: inline-block;
+}
+
+.social-link img {
+    max-width: 150px;
+    filter: drop-shadow(0 0 5px #999);
+}
+
+@media (max-width: 620px) {
+    body {
+        margin: 0;
+        background-color: white;
+        
+    }
+
+    main {
+        box-shadow: none;
+    }
+}
